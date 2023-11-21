@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battery Charge | Animation</title>
+  </head>
+  <body>
+    <section class="battery">
+      <div class="battery_card">
+        <div class="battery_data">
+          <p class="battery_text">Battery</p>
+          <h1 class="battery_percent">16%</h1>
+          <p class="battery_status">
+            low battery
+            <iconify-icon
+              class="i"
+              icon="fa6-solid:plug-circle-bolt"
+            ></iconify-icon>
+          </p>
+        </div>
+
+        <div class="battery_fill">
+          <div class="battery_level">
+            <div class="battery_liquid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
